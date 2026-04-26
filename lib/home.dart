@@ -40,11 +40,69 @@ class _HomeState extends State<Home> {
               Icons.account_circle,
               size: 60,
             ),
-            title: Text("Naruto Uzumaki"),
-            subtitle: Text("What's up Emma! 👋"),
+            title: Text("Omoding Julius"),
+            subtitle: Text("What's up Joseph! 👋"),
             trailing: Column(
               children: [
-                Text("6:45 PM"),
+                Text("6:45 AM"),
+                Container(
+                  padding: EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: Colors.green,
+                    shape: BoxShape.circle,
+                  ),
+                  child: Text("6"),
+                ),
+              ],
+            ),
+          ),
+          ListTile(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => Chat(),
+                ),
+              );
+            },
+            leading: Icon(
+              Icons.account_circle,
+              size: 60,
+            ),
+            title: Text("Twinomasiko Micheal"),
+            subtitle: Text("Hello Obbo! 👋"),
+            trailing: Column(
+              children: [
+                Text("7:30 PM"),
+                Container(
+                  padding: EdgeInsets.all(8),
+                  decoration: BoxDecoration(
+                    color: Colors.green,
+                    shape: BoxShape.circle,
+                  ),
+                  child: Text("6"),
+                ),
+              ],
+            ),
+          ),
+          ListTile(
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => Chat(),
+                ),
+              );
+            },
+            leading: Icon(
+              Icons.account_circle,
+              size: 60,
+            ),
+            title: Text("Naturinda Evelyne"),
+            subtitle: Text("Good morning dia! 👋"),
+            trailing: Column(
+              children: [
+                Text("6:15 AM"),
                 Container(
                   padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
@@ -301,8 +359,8 @@ class _HomeState extends State<Home> {
               Icons.account_circle,
               size: 60,
             ),
-            title: Text("Naruto Uzumaki"),
-            subtitle: Text("What's up Emma! 👋"),
+            title: Text("Martine Wakabira"),
+            subtitle: Text("What's up Obbo! 👋"),
             trailing: Column(
               children: [
                 Text("6:45 PM"),
@@ -330,11 +388,11 @@ class _HomeState extends State<Home> {
               Icons.account_circle,
               size: 60,
             ),
-            title: Text("Naruto Uzumaki"),
-            subtitle: Text("What's up Emma! 👋"),
+            title: Text("Owori Richard"),
+            subtitle: Text("Whats going on Joseph, Your quiet! 👋"),
             trailing: Column(
               children: [
-                Text("6:45 PM"),
+                Text("12:08 PM"),
                 Container(
                   padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
@@ -359,11 +417,11 @@ class _HomeState extends State<Home> {
               Icons.account_circle,
               size: 60,
             ),
-            title: Text("Naruto Uzumaki"),
-            subtitle: Text("What's up Emma! 👋"),
+            title: Text("Gregor Okumu"),
+            subtitle: Text("What's up brother! 👋"),
             trailing: Column(
               children: [
-                Text("6:45 PM"),
+                Text("5:05 AM"),
                 Container(
                   padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
@@ -388,11 +446,11 @@ class _HomeState extends State<Home> {
               Icons.account_circle,
               size: 60,
             ),
-            title: Text("Naruto Uzumaki"),
-            subtitle: Text("What's up Emma! 👋"),
+            title: Text("Okeng Gabriel"),
+            subtitle: Text("Where have you been Joseph! 👋"),
             trailing: Column(
               children: [
-                Text("6:45 PM"),
+                Text("9:40 AM"),
                 Container(
                   padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
@@ -417,11 +475,11 @@ class _HomeState extends State<Home> {
               Icons.account_circle,
               size: 60,
             ),
-            title: Text("Naruto Uzumaki"),
-            subtitle: Text("What's up Emma! 👋"),
+            title: Text("Ouma Gideon"),
+            subtitle: Text("You man! 👋"),
             trailing: Column(
               children: [
-                Text("6:45 PM"),
+                Text("7:06 AM"),
                 Container(
                   padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
@@ -446,11 +504,11 @@ class _HomeState extends State<Home> {
               Icons.account_circle,
               size: 60,
             ),
-            title: Text("Naruto Uzumaki"),
-            subtitle: Text("What's up Emma! 👋"),
+            title: Text("Kambale Jonas"),
+            subtitle: Text("WAKE WAKE! Joseph! 👋"),
             trailing: Column(
               children: [
-                Text("6:45 PM"),
+                Text("4:30 AM"),
                 Container(
                   padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
@@ -475,11 +533,11 @@ class _HomeState extends State<Home> {
               Icons.account_circle,
               size: 60,
             ),
-            title: Text("Naruto Uzumaki"),
-            subtitle: Text("What's up Emma! 👋"),
+            title: Text("Namakula Christine"),
+            subtitle: Text("hello hello jose! 👋"),
             trailing: Column(
               children: [
-                Text("6:45 PM"),
+                Text("9:10 PM"),
                 Container(
                   padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
@@ -504,69 +562,11 @@ class _HomeState extends State<Home> {
               Icons.account_circle,
               size: 60,
             ),
-            title: Text("Naruto Uzumaki"),
-            subtitle: Text("What's up Emma! 👋"),
+            title: Text("Oketcho Martin"),
+            subtitle: Text("Jambo Joseph! 👋"),
             trailing: Column(
               children: [
-                Text("6:45 PM"),
-                Container(
-                  padding: EdgeInsets.all(8),
-                  decoration: BoxDecoration(
-                    color: Colors.green,
-                    shape: BoxShape.circle,
-                  ),
-                  child: Text("6"),
-                ),
-              ],
-            ),
-          ),
-          ListTile(
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => Chat(),
-                ),
-              );
-            },
-            leading: Icon(
-              Icons.account_circle,
-              size: 60,
-            ),
-            title: Text("Naruto Uzumaki"),
-            subtitle: Text("What's up Emma! 👋"),
-            trailing: Column(
-              children: [
-                Text("6:45 PM"),
-                Container(
-                  padding: EdgeInsets.all(8),
-                  decoration: BoxDecoration(
-                    color: Colors.green,
-                    shape: BoxShape.circle,
-                  ),
-                  child: Text("6"),
-                ),
-              ],
-            ),
-          ),
-          ListTile(
-            onTap: () {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => Chat(),
-                ),
-              );
-            },
-            leading: Icon(
-              Icons.account_circle,
-              size: 60,
-            ),
-            title: Text("Naruto Uzumaki"),
-            subtitle: Text("What's up Emma! 👋"),
-            trailing: Column(
-              children: [
-                Text("6:45 PM"),
+                Text("8:20 PM"),
                 Container(
                   padding: EdgeInsets.all(8),
                   decoration: BoxDecoration(
